@@ -16,8 +16,6 @@
 
 extern "C"
 {
-    
-    
     void EPPZ_Cloud_InitializeWithGameObjectName(const char* gameObjectName);
     bool EPPZ_Cloud_Synchronize(void);
     

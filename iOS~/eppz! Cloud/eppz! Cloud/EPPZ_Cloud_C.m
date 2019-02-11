@@ -12,8 +12,7 @@
 //
 
 #import "EPPZ_Cloud_C.h"
-#import "UnityString.m"
-
+#import "UnityString.h"
 
 extern void _EPPZ_Cloud_InitializeWithGameObjectName(NSString* gameObjectName)
 { [[EPPZ_Cloud instance] initializeWithGameObjectName:UnityStringFromNSString(gameObjectName)]; }

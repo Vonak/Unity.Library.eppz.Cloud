@@ -16,8 +16,6 @@
 
 extern "C"
 {
-    
-    
     void EPPZ_Cloud_InitializeWithGameObjectName(const char* gameObjectName)
     { [[EPPZ_Cloud instance] initializeWithGameObjectName:gameObjectName]; }
     

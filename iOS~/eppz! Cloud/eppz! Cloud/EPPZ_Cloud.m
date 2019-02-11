@@ -12,7 +12,7 @@
 //
 
 #import "EPPZ_Cloud.h"
-#import "UnityString.m"
+#import "UnityString.h"
 
 
 EPPZ_Cloud* _instance = nil;
